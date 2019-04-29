@@ -1,0 +1,236 @@
+{
+    "name": "airbnb",
+    "attributes": [
+        {
+            "name": "id",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "host_since",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLDate"
+        },
+        {
+            "name": "host_response_time",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLString"
+        },
+        {
+            "name": "host_response_rate",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "host_acceptance_rate",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "host_is_superhost",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLBool"
+        },
+        {
+            "name": "host_identity_verified",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLBool"
+        },
+        {
+            "name": "neighbourhood",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLString"
+        },
+        {
+            "name": "city",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLString"
+        },
+        {
+            "name": "state",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLString"
+        },
+        {
+            "name": "zipcode",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLString"
+        },
+        {
+            "name": "country_code",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLString"
+        },
+        {
+            "name": "property_type",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLString"
+        },
+        {
+            "name": "room_type",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLString"
+        },
+        {
+            "name": "accommodates",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "bathrooms",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "half_bathroom",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "bedrooms",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "beds",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "bed_type",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLString"
+        },
+        {
+            "name": "price",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "guests_included",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "extra_people",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "minimum_nights",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "number_of_reviews",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "review_scores_rating",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "review_scores_accuracy",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "review_scores_cleanliness",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "review_scores_checkin",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "review_scores_communication",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "review_scores_location",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "review_scores_value",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLUnsignedInt32"
+        },
+        {
+            "name": "cancellation_policy",
+            "privacyLevel": {
+                "type": "public"
+            },
+            "type": "SQLString"
+        }
+    ]
+}
